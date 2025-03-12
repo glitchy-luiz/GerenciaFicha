@@ -17,10 +17,5 @@ namespace coisaboa
             Desc = desc;
             Dano = dano;
         }
-
-        public static void EditarHabi()
-        {
-            
-        }
     }
 }

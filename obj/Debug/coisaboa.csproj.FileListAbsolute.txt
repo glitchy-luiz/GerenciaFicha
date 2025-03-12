@@ -121,3 +121,4 @@ C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.csproj.Up2Date
 C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.exe
 C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.pdb
 C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.EditHabi.resources
+C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.AddPeri.resources
