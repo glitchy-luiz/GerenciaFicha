@@ -38,6 +38,7 @@ namespace coisaboa
         private void button2_Click(object sender, EventArgs e)
         {
             flowLayoutPanel1.Controls.Clear();
+            flowLayoutPanel2.Controls.Clear();
             var person = conf.BuscarChar(textBox1.Text);
             if (person != null)
             {
@@ -59,6 +60,17 @@ namespace coisaboa
                         UserControl1 pog = new UserControl1(person);
                         pog.Habi = habilidade;
                         flowLayoutPanel1.Controls.Add(pog);
+                    }
+                }
+
+                flowLayoutPanel2.AutoScroll = true;
+                if (person.pericias != null)
+                {
+                    foreach (var pericia in person.pericias)
+                    {
+                        ControlPeri tela = new ControlPeri(person);
+                        tela.Peri = pericia;
+                        flowLayoutPanel2.Controls.Add(tela);
                     }
                 }
             }

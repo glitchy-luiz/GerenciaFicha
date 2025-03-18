@@ -126,6 +126,7 @@ namespace coisaboa
                 personagem.Ocult = novosDados.Ocult;
                 personagem.Endurecy = novosDados.Endurecy;
                 personagem.habilidades = novosDados.habilidades;
+                personagem.pericias = novosDados.pericias;
 
                 SalvarChars(chars);
                 Console.WriteLine($"Personagem {nome} atualizado com sucesso.");

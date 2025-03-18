@@ -13,12 +13,15 @@ namespace coisaboa
         public int Life;
         public int Energy;
         public int Sanity;
+
         public int Strengh;
         public int Inteligent;
         public int Agility;
         public int Ocult;
         public int Endurecy;
+
         public List<Habi> habilidades = new List<Habi> { };
+        public List<Pericia> pericias = new List<Pericia> { };
         public Person(string nome, int vida, int energia, int sanidade, int forca, int inteli, int agilidade, int ocultismo, int vigor) 
         {
             Name = nome;

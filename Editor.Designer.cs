@@ -55,6 +55,9 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.SuspendLayout();
             // 
             // label1
@@ -143,13 +146,13 @@
             // 
             this.flowLayoutPanel1.Location = new System.Drawing.Point(350, 88);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(344, 205);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(184, 228);
             this.flowLayoutPanel1.TabIndex = 9;
             this.flowLayoutPanel1.Visible = false;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(589, 62);
+            this.button3.Location = new System.Drawing.Point(459, 59);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 10;
@@ -306,11 +309,43 @@
             this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(549, 71);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(47, 13);
+            this.label13.TabIndex = 29;
+            this.label13.Text = "Pericias:";
+            this.label13.Visible = false;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(658, 59);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 28;
+            this.button5.Text = "add";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Visible = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(549, 88);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(184, 228);
+            this.flowLayoutPanel2.TabIndex = 27;
+            this.flowLayoutPanel2.Visible = false;
+            // 
             // Editor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(706, 347);
+            this.ClientSize = new System.Drawing.Size(745, 347);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.label12);
@@ -374,5 +409,8 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
     }
 }

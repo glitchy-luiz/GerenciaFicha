@@ -80,7 +80,19 @@
     <Compile Include="AddHabi.Designer.cs">
       <DependentUpon>AddHabi.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddPeri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPeri.Designer.cs">
+      <DependentUpon>AddPeri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Configuracao.cs" />
+    <Compile Include="ControlPeri.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlPeri.Designer.cs">
+      <DependentUpon>ControlPeri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Criador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +119,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Habi.cs" />
+    <Compile Include="Pericia.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Personagens.cs">
       <SubType>Form</SubType>
@@ -124,6 +137,12 @@
     </Compile>
     <EmbeddedResource Include="AddHabi.resx">
       <DependentUpon>AddHabi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPeri.resx">
+      <DependentUpon>AddPeri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlPeri.resx">
+      <DependentUpon>ControlPeri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Criador.resx">
       <DependentUpon>Criador.cs</DependentUpon>
