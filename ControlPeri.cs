@@ -18,7 +18,7 @@ namespace coisaboa
         public ControlPeri(Person personagem)
         {
             InitializeComponent();
-            this.Size = new Size(200, 150);
+            this.Size = new Size(200, 180);
             person = personagem;
         }
 
@@ -33,6 +33,12 @@ namespace coisaboa
         {
             var res = Dano.CalcularPericia(_peri, person);
             MessageBox.Show(res);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            EditPeri edit = new EditPeri(person, _peri);
+            edit.Show();
         }
     }
 }

@@ -123,3 +123,4 @@ C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.pdb
 C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.EditHabi.resources
 C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.AddPeri.resources
 C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.ControlPeri.resources
+C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.EditPeri.resources

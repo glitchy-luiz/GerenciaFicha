@@ -119,6 +119,7 @@ namespace coisaboa
             {
                 var person = conf.BuscarChar(nome);
                 conf.ExcluirPersonagem(nome);
+                this.Close();
             }
         }
 
