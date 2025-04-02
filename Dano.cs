@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Windows.Forms.VisualStyles;
 
 namespace coisaboa
 {
@@ -46,6 +47,41 @@ namespace coisaboa
 
             //totalDanoLabel.Text = "Dano Total: " + danoTotal;
             return resultadoDados;
+        }
+
+        public static string CalcularPericia(Pericia pericia, Person person)
+        {
+            var dados = ValorAtributo(pericia, person);
+            var bonus = pericia.bonus.ToString();
+            return CalcularDano($"{dados}d20 + {bonus}");
+        }
+
+        public static string ValorAtributo(Pericia pericia, Person person)
+        {
+            if (pericia.atribute == "Força")
+            {
+                return person.Strengh.ToString();
+            }
+            else if (pericia.atribute == "Inteligência")
+            {
+                return person.Inteligent.ToString();
+            }
+            else if (pericia.atribute == "Agilidade")
+            {
+                return person.Agility.ToString();
+            }
+            else if (pericia.atribute == "Presença")
+            {
+                return person.Ocult.ToString();
+            }
+            else if (pericia.atribute == "Vigor")
+            {
+                return person.Endurecy.ToString();
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }

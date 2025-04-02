@@ -34,5 +34,11 @@ namespace coisaboa
             Editor editor = new Editor();
             editor.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Dados dados = new Dados();
+            dados.Show();
+        }
     }
 }

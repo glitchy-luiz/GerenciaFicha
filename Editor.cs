@@ -51,6 +51,17 @@ namespace coisaboa
                         flowLayoutPanel1.Controls.Add(pog);
                     }
                 }
+
+                flowLayoutPanel2.AutoScroll = true;
+                if(personagem.pericias != null)
+                {
+                    foreach (var pericia in personagem.pericias)
+                    {
+                        ControlPeri tela = new ControlPeri(personagem);
+                        tela.Peri = pericia;
+                        flowLayoutPanel2.Controls.Add(tela);
+                    }
+                }
             }
             else
             {
@@ -108,7 +119,20 @@ namespace coisaboa
             {
                 var person = conf.BuscarChar(nome);
                 conf.ExcluirPersonagem(nome);
+                this.Close();
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AddPeri add = new AddPeri(nome);
+            add.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Inventario inv = new Inventario(nome);
+            inv.Show();
         }
     }
 }

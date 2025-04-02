@@ -80,12 +80,42 @@
     <Compile Include="AddHabi.Designer.cs">
       <DependentUpon>AddHabi.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItem.Designer.cs">
+      <DependentUpon>AddItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPeri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPeri.Designer.cs">
+      <DependentUpon>AddPeri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Configuracao.cs" />
+    <Compile Include="ControlItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlItem.Designer.cs">
+      <DependentUpon>ControlItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPeri.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlPeri.Designer.cs">
+      <DependentUpon>ControlPeri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Criador.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Criador.Designer.cs">
       <DependentUpon>Criador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dados.Designer.cs">
+      <DependentUpon>Dados.cs</DependentUpon>
     </Compile>
     <Compile Include="Dano.cs" />
     <Compile Include="EditHabi.cs">
@@ -100,6 +130,12 @@
     <Compile Include="Editor.Designer.cs">
       <DependentUpon>Editor.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditPeri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPeri.Designer.cs">
+      <DependentUpon>EditPeri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +143,14 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Habi.cs" />
+    <Compile Include="Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario.Designer.cs">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item.cs" />
+    <Compile Include="Pericia.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Personagens.cs">
       <SubType>Form</SubType>
@@ -125,8 +169,23 @@
     <EmbeddedResource Include="AddHabi.resx">
       <DependentUpon>AddHabi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddItem.resx">
+      <DependentUpon>AddItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPeri.resx">
+      <DependentUpon>AddPeri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlItem.resx">
+      <DependentUpon>ControlItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlPeri.resx">
+      <DependentUpon>ControlPeri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Criador.resx">
       <DependentUpon>Criador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dados.resx">
+      <DependentUpon>Dados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditHabi.resx">
       <DependentUpon>EditHabi.cs</DependentUpon>
@@ -134,8 +193,14 @@
     <EmbeddedResource Include="Editor.resx">
       <DependentUpon>Editor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditPeri.resx">
+      <DependentUpon>EditPeri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario.resx">
+      <DependentUpon>Inventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Personagens.resx">
       <DependentUpon>Personagens.cs</DependentUpon>
