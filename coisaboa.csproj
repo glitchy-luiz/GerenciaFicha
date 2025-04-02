@@ -124,6 +124,12 @@
     <Compile Include="EditHabi.Designer.cs">
       <DependentUpon>EditHabi.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditItem.Designer.cs">
+      <DependentUpon>EditItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Editor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -189,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditHabi.resx">
       <DependentUpon>EditHabi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditItem.resx">
+      <DependentUpon>EditItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Editor.resx">
       <DependentUpon>Editor.cs</DependentUpon>

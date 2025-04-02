@@ -128,3 +128,4 @@ C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.Dados.resources
 C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.AddItem.resources
 C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.ControlItem.resources
 C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.Inventario.resources
+C:\Users\luizsouza\Downloads\fichasalva-main\obj\Debug\coisaboa.EditItem.resources

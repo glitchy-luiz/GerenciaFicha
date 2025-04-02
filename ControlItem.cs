@@ -43,5 +43,11 @@ namespace coisaboa
                 conf.EditarPersonagem(person.Name, person);
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            EditItem page = new EditItem(Item, person);
+            page.Show();
+        }
     }
 }
