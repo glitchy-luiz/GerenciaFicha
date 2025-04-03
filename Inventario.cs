@@ -25,7 +25,9 @@ namespace coisaboa
         private void buscaItens()
         {
             var personagem = conf.BuscarChar(nome);
-            label1.Text = personagem.itens.Count.ToString();
+            label1.Text = $"Inventário de {personagem.Name}";
+            label2.Text = $"{personagem.itens.Count.ToString()} itens";
+            var peso = 0;
 
             if (personagem != null)
             {
@@ -38,6 +40,7 @@ namespace coisaboa
                         ControlItem pog = new ControlItem(personagem);
                         pog.Item = item;
                         flowLayoutPanel1.Controls.Add(pog);
+                        peso += item.Weight;
                     }
                 }
             }
@@ -45,6 +48,8 @@ namespace coisaboa
             {
                 MessageBox.Show("erro ao buscar char");
             }
+
+            label3.Text = $"Peso total: {peso}";
         }
 
         private void button1_Click(object sender, EventArgs e)

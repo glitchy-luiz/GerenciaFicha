@@ -21,17 +21,17 @@ namespace coisaboa
             this.item = item;
             this.person = person;
             textBox1.Text = item.Name;
-            textBox2.Text = item.Weight.ToString();
-            textBox3.Text = item.Quantidy.ToString();
-            textBox4.Text = item.Description;
+            textBox3.Text = item.Weight.ToString();
+            textBox4.Text = item.Quantidy.ToString();
+            textBox2.Text = item.Description;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             item.Name = textBox1.Text;
-            item.Weight = int.Parse(textBox2.Text);
-            item.Quantidy = int.Parse(textBox3.Text);
-            item.Description = textBox4.Text;
+            item.Weight = int.Parse(textBox3.Text);
+            item.Quantidy = int.Parse(textBox4.Text);
+            item.Description = textBox2.Text;
             conf.EditarPersonagem(person.Name, person);
             MessageBox.Show("item editado com sucesso");
         }

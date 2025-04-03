@@ -52,6 +52,8 @@ namespace coisaboa
                 label10.Text = $"Vigor: {person.Endurecy.ToString()}";
                 label11.Text = $"Sanidade: {person.Sanity.ToString()}";
 
+                button3.Visible = true;
+
                 flowLayoutPanel1.AutoScroll = true;
                 if (person.habilidades != null)
                 {
@@ -78,6 +80,12 @@ namespace coisaboa
             {
                 MessageBox.Show("Nenhum personagem foi encontrado!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Inventario inv = new Inventario(textBox1.Text);
+            inv.Show();
         }
     }
 }
